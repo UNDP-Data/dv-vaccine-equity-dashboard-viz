@@ -1,5 +1,5 @@
 # Vaccine Equity Dashboard
-#### This project aims to provide interactive visualizations for exploring and analyzing inequity in COVID-19 vaccines. [Click here to see the interface] _link coming soon_.
+#### This project aims to provide interactive visualizations for exploring and analyzing inequity in COVID-19 vaccines. [Click here to see the interface](https://calm-hill-03e676f10.4.azurestaticapps.net/).
 
 ## Table of Contents
 * [Link for the visualization](#section-01)
@@ -13,13 +13,12 @@
 * [Local Deployment](#section-08)
 * [Available Scripts](#section-09)
 * [Tooling Setup](#section-10)
-* [Contact](#section-11)
 
 ## Link for the visualization<a name="section-01"></a>
-_link coming soon_
+[https://calm-hill-03e676f10.4.azurestaticapps.net/](https://calm-hill-03e676f10.4.azurestaticapps.net/)
 
 ## Deployment<a name="deployment"></a>
-The Production site deployed using Azure Static Web App and work flow can be found [here] _link coming soon_.
+The Production site deployed using Azure Static Web App and work flow can be found [here](https://github.com/UNDP-Data/dv-vaccine-equity-dashboard-viz/blob/main/.github/workflows/azure-static-web-apps-calm-hill-03e676f10.yml).
 
 ## Steps to Integrating the Visualization in the Data Future Platform or Any Other Page<a name="section-02"></a>
 
@@ -31,7 +30,7 @@ ___
 
 Apart from the mentioned `div` above the following `script` and `link` needs to be added to the `head` or in the embed code
 ```
-<script defer src="<Link to the Visualization Mentioned Above>/static/js/main.js"></script>
+<script defer src="https://calm-hill-03e676f10.4.azurestaticapps.net/index.js"></script>
 <link rel="stylesheet" href="https://undp-data.github.io/stylesheets-for-viz/style/mainStyleSheet.css" />
 <link rel="stylesheet" href="https://undp-data.github.io/stylesheets-for-viz/style/StyleForGraphingInterface.css" />
 <link rel="stylesheet" href="https://undp-data.github.io/stylesheets-for-viz/style/StyleForGraph.css" />
@@ -94,6 +93,3 @@ The page will reload if you make edits. You will also see any lint errors in the
 This project uses ESLint integrated with prettier, which verifies and formats your code so you don't have to do it manually. You should have your editor set up to display lint errors and automatically fix those which it is possible to fix. See [http://eslint.org/docs/user-guide/integrations](http://eslint.org/docs/user-guide/integrations).
 
 This project is build in Visual Studio Code, therefore the project is already set up to work with. Install it from [here](https://code.visualstudio.com/) and then install this [eslint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and you should be good to go.
-
-## Contact<a name="section-11"></a>
-[**Mustafa Saifee**](mailto:mustafa.saifee@undp.org)
